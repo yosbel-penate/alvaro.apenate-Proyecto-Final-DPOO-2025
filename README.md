@@ -117,6 +117,7 @@ El proyecto estará organizado en las siguientes carpetas y archivos:
 ![image](https://github.com/user-attachments/assets/e837945e-fa1d-4665-9b9a-da480fd84ef6)
 
    * Cronograma Inicial
+  
 ![image](https://github.com/user-attachments/assets/26f76a09-cd3f-4094-b737-ef9b6f1971e5)
 
 *Métricas de Éxito
