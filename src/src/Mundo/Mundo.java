@@ -1,6 +1,6 @@
 package Mundo;
 
-public class Mundo {
+public abstract class Mundo {
     String ambiente;
 
     public Mundo() {

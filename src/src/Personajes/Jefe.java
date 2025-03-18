@@ -1,24 +1,29 @@
 package Personajes;
 
-public class Jefe extends Enemigo {
-    int pelos;
-    int dientes;
+public class Jefe extends Personaje implements IEnemigo {
 
 
     public Jefe() {
     }
 
-    public Jefe(int vida, int ataque, String nombre, String especialidad, String debilidad, int pelos, int dientes) {
-        super(vida, ataque, nombre, especialidad, debilidad);
-        this.pelos = pelos;
-        this.dientes = dientes;
+    @Override
+    public String atacar() {
+        return "muere basura";
     }
 
+    @Override
+    public String moverse() {
+        return "me muevo xd";
+    }
+
+    @Override
+    public String morir() {
+        return "q dolor";
+    }
+
+
+    @Override
     public String intimidar() {
-        String llamado = "que mirah bobo";
-        return llamado;
+        return "que mira bobo";
     }
-
-
-
 }
