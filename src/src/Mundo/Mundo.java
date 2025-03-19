@@ -1,7 +1,7 @@
 package Mundo;
 
 public abstract class Mundo {
-    String ambiente;
+    protected String ambiente;
 
     public Mundo() {
     }
