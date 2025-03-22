@@ -1,4 +1,6 @@
-package Items;
+package Items.Reliquias;
+
+import Items.Item;
 
 public class Reliquias extends Item {
     String efecto;

@@ -1,6 +1,8 @@
-package Items;
+package Items.Consumibles;
 
-public class Consumible extends Item{
+import Items.Item;
+
+public class Consumible extends Item {
     String efecto;
     int durabilidad;
 

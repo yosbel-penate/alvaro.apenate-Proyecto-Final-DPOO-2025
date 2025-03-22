@@ -1,6 +1,6 @@
-package Personajes;
+package Personajes.Protagonistas;
 
-public interface Ipersonaje {
+public interface IJugador {
     public void interacctuar();
     public void abrirInventario();
     public void abrirMapa();

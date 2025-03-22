@@ -3,6 +3,9 @@ public class Juego {
 
         String nombre;
         String descripcion;
+        double duracion;
+
+
 
 
         //no se guien por lo que esta escrito , aun no es definitivo

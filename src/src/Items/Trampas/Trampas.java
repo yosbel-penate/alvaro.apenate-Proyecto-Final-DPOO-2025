@@ -1,6 +1,8 @@
-package Items;
+package Items.Trampas;
 
-public class Trampas extends Item{
+import Items.Item;
+
+public class Trampas extends Item {
     int danio;
 
     @Override

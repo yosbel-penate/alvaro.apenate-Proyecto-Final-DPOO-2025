@@ -1,15 +1,15 @@
-package Personajes;
+package Personajes.Protagonistas;
 
-public class Jugador extends Personaje implements Ipersonaje {
+import Personajes.Personaje;
+
+public class Jugador extends Personaje implements IJugador {
 
 
     public Jugador(){
 
     }
-
-    @Override
-    public String atacar() {
-        return "te estoy golpeando";
+    public String atacar(){
+        return "muereteeeeee";
     }
 
     @Override

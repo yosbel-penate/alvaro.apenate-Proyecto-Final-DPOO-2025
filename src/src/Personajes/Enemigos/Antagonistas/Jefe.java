@@ -1,4 +1,7 @@
-package Personajes;
+package Personajes.Enemigos.Antagonistas;
+
+import Personajes.Enemigos.IEnemigo;
+import Personajes.Personaje;
 
 public class Jefe extends Personaje implements IEnemigo {
 
@@ -6,10 +9,6 @@ public class Jefe extends Personaje implements IEnemigo {
     public Jefe() {
     }
 
-    @Override
-    public String atacar() {
-        return "muere basura";
-    }
 
     @Override
     public String moverse() {
@@ -25,5 +24,10 @@ public class Jefe extends Personaje implements IEnemigo {
     @Override
     public String intimidar() {
         return "que mira bobo";
+    }
+
+    @Override
+    public String atacar() {
+        return "";
     }
 }
