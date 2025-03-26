@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="FXGL-dev">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$USER_HOME$/Downloads/FXGL-dev" />
+      <root url="file://$USER_HOME$/Downloads/FXGL-dev/FXGL-dev/fxgl-controllerinput/src/main/java" />
+      <root url="file://$USER_HOME$/Downloads/FXGL-dev/FXGL-dev/fxgl-core/src/main/java" />
+      <root url="file://$USER_HOME$/Downloads/FXGL-dev/FXGL-dev/fxgl-core/src/test/java" />
+      <root url="file://$USER_HOME$/Downloads/FXGL-dev/FXGL-dev/fxgl-entity/src/main/java" />
+      <root url="file://$USER_HOME$/Downloads/FXGL-dev/FXGL-dev/fxgl-entity/src/test/java" />
+      <root url="file://$USER_HOME$/Downloads/FXGL-dev/FXGL-dev/fxgl-intelligence/src/main/java" />
+      <root url="file://$USER_HOME$/Downloads/FXGL-dev/FXGL-dev/fxgl-io/src/main/java" />
+      <root url="file://$USER_HOME$/Downloads/FXGL-dev/FXGL-dev/fxgl-samples/src/main/java" />
+      <root url="file://$USER_HOME$/Downloads/FXGL-dev/FXGL-dev/fxgl-scene/src/main/java" />
+      <root url="file://$USER_HOME$/Downloads/FXGL-dev/FXGL-dev/fxgl-test/src/main/java" />
+      <root url="file://$USER_HOME$/Downloads/FXGL-dev/FXGL-dev/fxgl-tools/src/main/java" />
+      <root url="file://$USER_HOME$/Downloads/FXGL-dev/FXGL-dev/fxgl-zdeploy/src/main/java" />
+      <root url="file://$USER_HOME$/Downloads/FXGL-dev/FXGL-dev/fxgl/src/main/java" />
+      <root url="file://$USER_HOME$/Downloads/FXGL-dev/FXGL-dev/fxgl/src/main/java-templates" />
+    </SOURCES>
+  </library>
+</component>
