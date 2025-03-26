@@ -1,0 +1,6 @@
+
+package model.item.reliquias;
+
+public class AnilloDeUmbra extends Reliquias{
+    
+}
