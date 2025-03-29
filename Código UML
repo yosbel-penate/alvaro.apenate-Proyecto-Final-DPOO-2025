@@ -179,6 +179,68 @@ Guts --> Protagonista
 LordValen --> Protagonista
 Kael --> Protagonista
 Lyra --> Protagonista
+Class Neutral{
+-dialogos:String
++saludar():String
+}
+
+Class Espectro{
+-cantidadMisiones:int
+-riesgoMisiones:String
+-recompensaPorMision:int
++ofrecerMision():void
+}
+
+Class Alquimista{
+-cantidadObjetos:int
+-precioObjetos:int
++venderObjetos():void
+}
+
+Class Mapa {
+-tamanio : double
+-areasDescubiertas : int
+-region:String
+-entidadUnica:String
+
++actualizarExploracion():void
++cambiarClima ():void
++cambiarHora ():int
+}
+
+Class Peligro {
+-nombre : String
++afecatar():void
+}
+Class VorticesDeSombra{}
+Class EstanqueDeSangre{}
+
+Class Sanguinia {
+-mecanica:
+-jefe:
+
+}
+Class Tenebris {
+-enemigoUnico:
+-jefe:
+}
+
+Class NocturneCitadel{
+-trampa:
+-recompensa:
+}
+
+Juego "1" *-- "1..*" Mapa
+Mapa "1" o-- "1..*" Peligro
+NocturneCitadel o--> Mapa
+Tenebris o--> Mapa
+Sanguinia o--> Mapa
+Neutral --> Personaje
+Espectro --> Neutral
+Alquimista --> Neutral
+Peligro --> Caracter
+VorticesDeSombra--> Peligro
+EstanqueDeSangre--> Peligro
 
 
 
