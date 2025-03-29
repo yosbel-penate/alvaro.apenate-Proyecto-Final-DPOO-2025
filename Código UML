@@ -81,6 +81,104 @@ Juego "1" *-- "1..*"Logros
 Juego "1" *-- "1..*"Caracter
 
 
+Class Inventario{
+-espacio:int
++abrir():void
++cerrar():void
+}
+Class Personaje{
+-vida:int
+-lore:String
++interactuar():void
++morir():void
++mover():void
+}
+
+Class Protagonista{
+-habilidadEspecial
+
++atacar():void
++defender():void
++usarItem():void
+
+}
+
+Class Crisanta{}
+Class Cyan{}
+Class Deogracia{}
+Class Gandalf{}
+Class Guts{}
+Class LordValen{}
+CLass Kael{}
+Class Lyra{}
+
+Class Enemigo{
+-debilidad : String
++intimidar():String
+
+}
+Class Jefe {
+-habilidadUnica:String
+}
+Class Thors{}
+Class Dracula {}
+Class Esra{}
+Class Grifit{}
+Class LadySelene{}
+Class ReyDeSangre{}
+
+Class EnemigoComun{
+-zonaAparicion:String
++patrullar():void
+
+}
+
+Class Ghoul{}
+Class ArqueroDeSangre{}
+Class LanzadorDeHachas{}
+Class MagoCarmesi{}
+Class Nigromante{}
+Class CaballeroCadaver{}
+
+Class EnemigoMelee{
++golpeCritico():void
+}
+Class EnemigoDistancia{
++lanzar():void
+}
+
+Class EnemigoMagico{
++lanzarMagia():void
+}
+Personaje --> Inventario
+Personaje --> Caracter
+Protagonista --> Personaje
+Enemigo --> Personaje
+Jefe --> Enemigo
+Thors --> Jefe
+Dracula --> Jefe
+Esra --> Jefe
+Grifit --> Jefe
+LadySelene--> Jefe
+ReyDeSangre --> Jefe
+EnemigoComun --> Enemigo
+EnemigoMelee --> EnemigoComun
+EnemigoDistancia --> EnemigoComun
+EnemigoMagico --> EnemigoComun
+Ghoul --> EnemigoMelee
+CaballeroCadaver --> EnemigoMelee
+ArqueroDeSangre --> EnemigoDistancia
+LanzadorDeHachas --> EnemigoDistancia
+Nigromante --> EnemigoMagico
+MagoCarmesi --> EnemigoMagico
+Crisanta --> Protagonista
+Cyan --> Protagonista
+Deogracia --> Protagonista
+Gandalf --> Protagonista
+Guts --> Protagonista
+LordValen --> Protagonista
+Kael --> Protagonista
+Lyra --> Protagonista
 
 
 
