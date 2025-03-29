@@ -242,8 +242,37 @@ Peligro --> Caracter
 VorticesDeSombra--> Peligro
 EstanqueDeSangre--> Peligro
 
-
-
+Class Item {
+-valor :int
++usar():void
+}
+Class Consumible{
+-efecto:String
+-duracion:double
+}
+Class Reliquia{
+-efecto:String
+}
+Class Trampa{
+-danio: int
+}
+Class PolvoDePlata{}
+Class VialDeSangre{}
+Class AnilloDeUmbra{}
+Class CapaNocturna{}
+Class BombaDeHumo{}
+Class EstacaAutomatica{}
+ 
+ Item --> Caracter
+Consumible --> Item
+Reliquia--> Item
+Trampa --> Item
+PolvoDePlata--> Consumible
+VialDeSangre--> Consumible
+AnilloDeUmbra--> Reliquia
+CapaNocturna--> Reliquia
+BombaDeHumo--> Trampa
+EstacaAutomatica--> Trampa
 
 
 
