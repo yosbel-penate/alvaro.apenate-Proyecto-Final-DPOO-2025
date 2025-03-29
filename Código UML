@@ -1,5 +1,84 @@
 @startuml
 
+Class Juego{
+-nombre : String
+-duracion : double
+-estadoActual: String
+-tiempoGlobal: double
+
++iniciar():void
++apagar():void
+}
+Class Evento{
+-eventosProgramados[]
+-eventosAleatorios[]
++comenzarEvento():void
++completar():void
+}
+CLass RegistroMisiones{
+-misionesActivas:[]
+-misionesCompletadas:[]
+-misionesFallidas:[]
++seguirObjetivo():void
+}
+CLass MisionPrincipal{
+-nivel:int
+-objetivo : String
+-requisitos: String
+}
+Class MisionSecundaria{
+-limiteTiempo:double
+-recompensa:[]
+}
+
+Class Caracter{
+-nombre:String
+-esVisible:boolen
+
+}
+Class Posicion{
+-coordX:double
+-coordY:double
++ocupado()boolen
+}
+Class SistemaGuardado{
++guardadoAutomatico: double
+
++guardarPartida():void
++cargarPartida():void
++eliminarPartida():void
++encriptarDatos():void
+
+}
+
+Class Logros{
++cantidad : int
++descripcion :int
+
++desbloquearLogros():void
++revisarEstadistica():void
++mostrarLogroConseguido():String
+
+}
+
+Class Gui{
++mostrarInterfaz():void
++ocultarInterfaz():void
+
+}
+
+
+
+Caracter "1" o-- "1" Posicion
+Juego "1" *-- "1..*"Evento
+Juego "1" *-- "1" RegistroMisiones
+Evento --> RegistroMisiones
+MisionPrincipal --> RegistroMisiones
+MisionSecundaria --> RegistroMisiones
+Juego "1" *-- "1" Gui
+Juego "1" *-- "1"SistemaGuardado
+Juego "1" *-- "1..*"Logros
+Juego "1" *-- "1..*"Caracter
 
 
 
