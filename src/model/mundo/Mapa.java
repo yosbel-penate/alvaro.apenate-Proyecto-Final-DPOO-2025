@@ -10,17 +10,14 @@ public class Mapa {
 
 
     private void actualizarExploracion(){
-        return void
 
     }
 
-    ptivate void cambiarClima(){
-        return void
+    private void cambiarClima(){
 
     }
 
     private int cambiarHora(){
-        return int
     }
 
     
