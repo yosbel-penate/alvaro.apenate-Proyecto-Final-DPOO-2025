@@ -9,6 +9,6 @@ package model.mundo;
  *
  * @author Admin
  */
-public class Sanguinia {
+public class Sanguinia extends Mapa {
     
 }

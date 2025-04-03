@@ -9,6 +9,6 @@ package model.mundo;
  *
  * @author Admin
  */
-public class Tenebris {
+public class Tenebris extends Mapa {
     
 }

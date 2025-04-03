@@ -9,6 +9,6 @@ package model.mundo;
  *
  * @author Admin
  */
-public class NocturneCitadel {
+public class NocturneCitadel extends Mapa {
     
 }
