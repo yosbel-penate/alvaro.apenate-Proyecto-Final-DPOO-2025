@@ -67,8 +67,6 @@ Class Gui{
 
 }
 
-
-
 Caracter "1" o-- "1" Posicion
 Juego "1" *-- "1..*"Evento
 Juego "1" *-- "1" RegistroMisiones
@@ -79,7 +77,6 @@ Juego "1" *-- "1" Gui
 Juego "1" *-- "1"SistemaGuardado
 Juego "1" *-- "1..*"Logros
 Juego "1" *-- "1..*"Caracter
-
 
 Class Inventario{
 -espacio:int
