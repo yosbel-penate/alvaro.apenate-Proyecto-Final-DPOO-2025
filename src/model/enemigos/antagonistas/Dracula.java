@@ -1,8 +1,8 @@
 
-package model.enemigos.antagonistas;
+package src.model.enemigos.antagonistas;
 
-import model.enemigos.Enemigo;
+import src.model.enemigos.antagonistas.Jefe;
 
-public class Dracula extends Enemigo{
+public class Dracula extends Jefe {
     
 }

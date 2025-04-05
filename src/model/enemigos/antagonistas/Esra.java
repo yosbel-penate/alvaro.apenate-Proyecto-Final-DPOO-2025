@@ -1,8 +1,5 @@
+package src.model.enemigos.antagonistas;
 
-package model.enemigos.antagonistas;
-
-import model.enemigos.Enemigo;
-
-public class Esra extends Enemigo{
+public class Esra extends Jefe {
     
 }

@@ -1,8 +1,7 @@
 
-package model.enemigos.antagonistas;
+package src.model.enemigos.antagonistas;
+import src.model.enemigos.antagonistas.Jefe;
 
-import model.enemigos.Enemigo;
-
-public class Lady_Selene extends Enemigo {
+public class Lady_Selene extends Jefe {
     
 }

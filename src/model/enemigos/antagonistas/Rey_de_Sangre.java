@@ -1,8 +1,8 @@
 
-package model.enemigos.antagonistas;
+package src.model.enemigos.antagonistas;
 
-import model.enemigos.Enemigo;
+import src.model.enemigos.Enemigo;
 
-public class Rey_de_Sangre extends Enemigo{
+public class Rey_de_Sangre extends Enemigo {
     
 }

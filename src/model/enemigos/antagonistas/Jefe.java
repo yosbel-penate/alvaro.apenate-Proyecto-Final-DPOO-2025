@@ -1,8 +1,11 @@
 
-package model.enemigos.antagonistas;
+package src.model.enemigos.antagonistas;
 
-import model.enemigos.Enemigo;
+import src.model.enemigos.Enemigo;
 
-public class Jefe extends Enemigo{
+public class Jefe extends Enemigo {
+
+    private String habilidadUnica;
+
     
 }
