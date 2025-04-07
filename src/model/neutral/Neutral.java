@@ -1,7 +1,7 @@
 
-package model.neutral;
+package src.model.neutral;
 
-import model.character.Character;
+import src.model.Character;
 
 public class Neutral extends Character {
     

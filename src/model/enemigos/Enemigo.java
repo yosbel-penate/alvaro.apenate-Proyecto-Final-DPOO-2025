@@ -1,6 +1,8 @@
 
 package src.model.enemigos;
-import model.character.Character;
+
+
+import src.model.Character;
 
 public class Enemigo extends Character {
     private String debilidad;

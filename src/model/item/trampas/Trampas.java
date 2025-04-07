@@ -1,8 +1,10 @@
 
-package model.item.trampas;
-import model.item.Item;
+package src.model.item.trampas;
 
-public class Trampas extends Item{
+
+import src.model.item.Item;
+
+public class Trampas extends Item {
 
     private int danio;
     

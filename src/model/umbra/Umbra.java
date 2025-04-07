@@ -1,6 +1,7 @@
 
-package model.umbra;
-import model.character.Character;
+package src.model.umbra;
+
+import src.model.Character;
 
 public class Umbra extends Character {
     

@@ -1,5 +1,5 @@
 
-package model.item.trampas;
+package src.model.item.trampas;
 
 public class BombaDeHumo extends Trampas {
     

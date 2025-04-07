@@ -1,9 +1,10 @@
 
-package model.item.Consumibles;
+package src.model.item.Consumibles;
 
-import model.item.Item;
 
-public class Consumible extends Item{
+import src.model.item.Item;
+
+public class Consumible extends Item {
 
     private String efecto;
     private double duracion;

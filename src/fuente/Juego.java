@@ -1,5 +1,5 @@
 
-package fuente;
+package src.fuente;
 
 import javax.swing.JFrame;
 

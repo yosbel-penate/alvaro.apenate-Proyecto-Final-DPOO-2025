@@ -1,6 +1,6 @@
 
-package model.item.reliquias;
+package src.model.item.reliquias;
 
-public class AnilloDeUmbra extends Reliquias{
+public class AnilloDeUmbra extends Reliquias {
     
 }

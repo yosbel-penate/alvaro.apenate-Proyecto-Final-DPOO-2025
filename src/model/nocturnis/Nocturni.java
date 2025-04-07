@@ -1,8 +1,9 @@
 
-package model.nocturnis;
-import model.character.Character;
+package src.model.nocturnis;
 
-public class Nocturni extends Character{
+import src.model.Character;
+
+public class Nocturni extends Character {
 
     }
     

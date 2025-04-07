@@ -1,7 +1,25 @@
 
-package model.protagonista;
-import model.character.Character;
+package src.model.protagonista;
 
-public class Protagonista extends Character{
-    
+
+import src.model.Character;
+
+public class Protagonista extends Character {
+
+    private String habilidadEspecial;
+
+
+
+    public void atacar(){
+
+    }
+
+    public void defender(){
+
+    }
+
+    public void usarItem(){
+
+    }
 }
+

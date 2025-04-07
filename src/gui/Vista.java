@@ -1,5 +1,5 @@
 
-package gui;
+package src.gui;
 
 public class Vista extends javax.swing.JFrame {
 
