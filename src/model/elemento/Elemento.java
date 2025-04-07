@@ -1,5 +1,5 @@
 
-package model.elemento;
+package src.model.elemento;
 
 public class Elemento {
 

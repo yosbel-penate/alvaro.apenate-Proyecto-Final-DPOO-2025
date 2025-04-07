@@ -1,9 +1,9 @@
 
 package src.model.item;
 
-import model.elemento.Elemento;
+import src.model.elemento.Elemento;
 
-public class Item extends Elemento{
+public class Item extends Elemento {
     
     private int valor;
 

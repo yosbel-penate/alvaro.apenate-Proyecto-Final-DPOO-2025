@@ -1,8 +1,9 @@
 
-package model.peligros;
+package src.model.peligros;
 
-import model.elemento.Elemento;
 
-public class Peligros extends Elemento{
+import src.model.elemento.Elemento;
+
+public class Peligros extends Elemento {
     
 }

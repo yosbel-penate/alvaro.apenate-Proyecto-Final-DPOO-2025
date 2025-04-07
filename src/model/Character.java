@@ -1,19 +1,21 @@
 package src.model;
 
-public class Character {
+import src.model.elemento.Elemento;
 
-  private int vida;
-  private String lore;
+public class Character extends Elemento {
 
-  public void interactuar(){
+    private int vida;
+    private String lore;
 
-  }
+    public void interactuar(){
 
-  public void morir(){
+    }
 
-  }
+    public void morir(){
 
-  public void mover(){
+    }
 
-  }
+    public void mover(){
+
+    }
 }
