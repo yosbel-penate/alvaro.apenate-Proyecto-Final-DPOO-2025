@@ -18,4 +18,5 @@ public class Character extends Elemento {
     public void mover(){
 
     }
+
 }
