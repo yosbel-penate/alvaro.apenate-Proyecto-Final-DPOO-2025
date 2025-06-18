@@ -67,9 +67,9 @@ Equipo de desarrollo:
 
 Alvaro Alejandro Peñate Torres (Jefe del equipo): Responsable de la coordinación general, diseño de mecánicas y narrativa.
 
-Victor Manuel Baños Del Rio: Encargado de la programación del sistema de combate y gestión de recursos.
+Victor Manuel Baños Del Rio:  Responsable del diseño de niveles y mecánicas de exploración.
 
-Ivan Fernández Prado: Responsable del diseño de niveles y mecánicas de exploración.
+Ivan Fernández Prado: Encargado de la programación del sistema de combate y gestión de recursos.
 
 Maykel Sotolongo Gómez: Encargado de la implementación de personajes, habilidades y sistema de objetos.
 
